@@ -1,14 +1,14 @@
 before_script:
- script:
-  -npm install
-  -echo "Installed Dependancies Complete"
+# script:
+#  -npm install
+#  -echo "Installed Dependancies Complete"
 
-testspec:
- script:
-  -npm test
-  -echo "Test Complete"
+#testspec:
+# script:
+#  -npm test
+#  -echo "Test Complete"
 
-buildspec:
- script:
-  -npm build
-  -echo "Build Complete"
+#buildspec:
+# script:
+#  -npm build
+#  -echo "Build Complete"
