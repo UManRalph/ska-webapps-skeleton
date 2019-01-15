@@ -1,14 +1,7 @@
 before_script:
-# script:
-#  -npm install
-#  -echo "Installed Dependancies Complete"
-
-#testspec:
-# script:
-#  -npm test
-#  -echo "Test Complete"
-
-#buildspec:
-# script:
-#  -npm build
-#  -echo "Build Complete"
+ - npm install
+ 
+testspec:
+ script:
+ - npm start
+ - echo "npm started"
