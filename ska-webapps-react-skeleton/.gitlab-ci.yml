@@ -6,4 +6,4 @@ before_script:
 testspec:
  script:
  - CI=true npm test  #[./ska-webapps-skeleton/ska-webapps-react-skeleton/src/App.test.js]
- - echo "Smoke test Complete"
+ #- echo "Smoke test Complete"
